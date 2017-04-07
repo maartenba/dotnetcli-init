@@ -63,23 +63,6 @@ namespace DotNetInit
             }
         }
 
-        public string Summary
-        {
-            get
-            {
-                var element = FindElement(nameof(Summary));
-                return element?.Value;
-            }
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                {
-                    var element = FindOrCreateElement(nameof(Summary));
-                    element.Value = value;
-                }
-            }
-        }
-
         public string Description
         {
             get

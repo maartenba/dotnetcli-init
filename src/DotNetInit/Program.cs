@@ -26,16 +26,13 @@ namespace DotNetInit
             {
                 // Set values
                 csproj.NuGetMetadata.PackageId = ReadFromConsole(
-                    "Id", csproj.NuGetMetadata.PackageId ?? Path.GetFileNameWithoutExtension(projectFile), "MyPackage", false);
+                    "PackageId", csproj.NuGetMetadata.PackageId ?? Path.GetFileNameWithoutExtension(projectFile), "MyPackage", false);
 
                 csproj.NuGetMetadata.PackageVersion = ReadFromConsole(
-                    "Version", csproj.NuGetMetadata.PackageVersion, "1.0.0", false);
+                    "PackageVersion", csproj.NuGetMetadata.PackageVersion, "1.0.0", false);
 
                 csproj.NuGetMetadata.Authors = ReadFromConsole(
                     "Authors", csproj.NuGetMetadata.Authors, null, false);
-
-                csproj.NuGetMetadata.Summary = ReadFromConsole(
-                    "Summary", csproj.NuGetMetadata.Summary, null, false);
 
                 csproj.NuGetMetadata.Description = ReadFromConsole(
                     "Description", csproj.NuGetMetadata.Description, null, true);
@@ -54,10 +51,9 @@ namespace DotNetInit
                 // Ask confirmation
                 Console.WriteLine();
                 Console.WriteLine("The following package metadata will be written:");
-                Console.WriteLine($"  Id: {csproj.NuGetMetadata.PackageId}");
-                Console.WriteLine($"  Version: {csproj.NuGetMetadata.PackageVersion}");
+                Console.WriteLine($"  PackageId: {csproj.NuGetMetadata.PackageId}");
+                Console.WriteLine($"  PackageVersion: {csproj.NuGetMetadata.PackageVersion}");
                 Console.WriteLine($"  Authors: {csproj.NuGetMetadata.Authors}");
-                Console.WriteLine($"  Summary: {csproj.NuGetMetadata.Summary}");
                 Console.WriteLine($"  Description: {csproj.NuGetMetadata.Description}");
                 Console.WriteLine($"  Copyright: {csproj.NuGetMetadata.Copyright}");
                 Console.WriteLine($"  PackageTags: {csproj.NuGetMetadata.PackageTags}");
@@ -77,6 +73,10 @@ namespace DotNetInit
                 {
                     csproj.Save();
                     Console.WriteLine($"Metadata was written to {projectFile}.");
+                }
+                else
+                {
+                    Console.WriteLine("Metadata was not written to disk.");
                 }
             }
         }
