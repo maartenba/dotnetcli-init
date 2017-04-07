@@ -7,6 +7,7 @@ This utility will walk you through initializing NuGet metadata in the current pr
 How to get it?
 
 	Install-Package DotNetInit
+	(or add a <DotNetCliToolReference Include="DotNetInit" Version="1.0.0" />)
 	
 How to run it?
 
