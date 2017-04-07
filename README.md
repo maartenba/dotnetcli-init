@@ -6,9 +6,9 @@ This utility will walk you through initializing NuGet metadata in the current pr
 
 Full reference for NuGet properties in .csproj [is available from Microsoft](https://github.com/dotnet/docs/blob/master/docs/core/tools/csproj.md).
 
-How to get it?
+How to get it? [From NuGet of course!](https://www.nuget.org/packages/DotNetInit)
 
-	Install-Package [DotNetInit](https://www.nuget.org/packages/DotNetInit)
+	Install-Package DotNetInit
 
 Or edit your `.csproj` and add:
 
