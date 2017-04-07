@@ -12,7 +12,7 @@ How to get it? [From NuGet of course!](https://www.nuget.org/packages/DotNetInit
 
 Or from the `dotnet` CLI:
 
-	dotnet add DotNetInit
+	dotnet add package DotNetInit
 
 Or edit your `.csproj` and add:
 
