@@ -13,5 +13,6 @@
     <IsTool>True</IsTool>
     <PackageType>DotNetCliTool</PackageType>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyName>dotnet-init</AssemblyName>
   </PropertyGroup>
 </Project>
