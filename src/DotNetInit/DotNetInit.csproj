@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackageId>DotNetInit</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Maarten Balliauw</Authors>
+    <Summary>This utility will walk you through initializing NuGet metadata in the current project. It only covers the most common items, and tries to guess sensible defaults.</Summary>
+    <Description>This utility will walk you through initializing NuGet metadata in the current project. It only covers the most common items, and tries to guess sensible defaults.</Description>
+    <Copyright>Maarten Balliauw</Copyright>
+    <PackageTags>dotnet cli tool</PackageTags>
+    <PackageType>DotnetCliTool</PackageType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
