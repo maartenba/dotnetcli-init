@@ -6,13 +6,20 @@
     <AssemblyName>dotnet-init</AssemblyName>
     
     <PackageId>DotNetInit</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>Maarten Balliauw</Authors>
-    <Summary>This utility will walk you through initializing NuGet metadata in the current project. It only covers the most common items, and tries to guess sensible defaults.</Summary>
-    <Description>This utility will walk you through initializing NuGet metadata in the current project. It only covers the most common items, and tries to guess sensible defaults.</Description>
+    <Description>This utility will walk you through initializing NuGet metadata in the current project. It only covers the most common items, and tries to guess sensible defaults.
+
+Full reference for NuGet properties in .csproj is available from Microsoft - https://github.com/dotnet/docs/blob/master/docs/core/tools/csproj.md
+    </Description>
     <Copyright>Maarten Balliauw</Copyright>
     <PackageTags>dotnet cli tool</PackageTags>
     <PackageType>DotnetCliTool</PackageType>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/maartenba/dotnetcli-init</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/maartenba/dotnetcli-init/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/maartenba/dotnetcli-init</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>More information is available at https://github.com/maartenba/dotnetcli-init</PackageReleaseNotes>
   </PropertyGroup>
 </Project>
