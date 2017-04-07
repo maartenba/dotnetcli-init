@@ -10,10 +10,6 @@ How to get it? [From NuGet of course!](https://www.nuget.org/packages/DotNetInit
 
 	Install-Package DotNetInit
 
-Or from the `dotnet` CLI:
-
-	dotnet add package DotNetInit
-
 Or edit your `.csproj` and add:
 
 	<ItemGroup>
