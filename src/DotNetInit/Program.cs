@@ -35,7 +35,7 @@ namespace DotNetInit
                     "Authors", csproj.NuGetMetadata.Authors, null, false);
 
                 csproj.NuGetMetadata.Description = ReadFromConsole(
-                    "Description", csproj.NuGetMetadata.Description, null, true);
+                    "Description", csproj.NuGetMetadata.Description, null, false);
 
                 csproj.NuGetMetadata.Copyright = ReadFromConsole(
                     "Copyright", csproj.NuGetMetadata.Copyright, null, true);
