@@ -4,6 +4,8 @@
 
 This utility will walk you through initializing NuGet metadata in the current project. It only covers the most common items, and tries to guess sensible defaults.
 
+Full reference for NuGet properties in .csproj [is available from Microsoft](https://github.com/dotnet/docs/blob/master/docs/core/tools/csproj.md).
+
 How to get it?
 
 	Install-Package [DotNetInit](https://www.nuget.org/packages/DotNetInit)
