@@ -6,7 +6,7 @@
     <AssemblyName>dotnet-init</AssemblyName>
     
     <PackageId>DotNetInit</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Authors>Maarten Balliauw</Authors>
     <Description>This utility will walk you through initializing NuGet metadata in the current project. It only covers the most common items, and tries to guess sensible defaults.
 

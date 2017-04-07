@@ -59,11 +59,11 @@ namespace DotNetInit
                 Console.WriteLine($"  PackageTags: {csproj.NuGetMetadata.PackageTags}");
                 Console.WriteLine($"  PackageProjectUrl: {csproj.NuGetMetadata.PackageProjectUrl}");
                 Console.WriteLine($"  GeneratePackageOnBuild: True");
+                Console.WriteLine();
 
                 char ok = 'x';
                 do
                 {
-                    Console.WriteLine();
                     Console.Write("Is that OK? (y/n) ");
                     ok = (char)Console.Read();
                 }
