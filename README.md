@@ -8,9 +8,7 @@ Full reference for NuGet properties in .csproj [is available from Microsoft](htt
 
 How to get it? [From NuGet of course!](https://www.nuget.org/packages/DotNetInit)
 
-	Install-Package DotNetInit
-
-Or edit your `.csproj` and add:
+Edit your `.csproj` and add:
 
 	<ItemGroup>
 		<DotNetCliToolReference Include="DotNetInit" Version="*" />
